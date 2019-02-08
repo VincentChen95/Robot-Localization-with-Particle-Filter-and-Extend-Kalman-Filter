@@ -34,13 +34,16 @@ flags available to you, run
 ```bash
 $ python localization.py -h
 ```
+
 ## Result
 You can input this code to check the result of EKF:
 ```bash
 $ python localization.py ekf --seed 0
 ```
 Mean position error: 8.998367536084695
+
 Mean Mahalanobis error: 4.416418248584291
+
 ANEES: 1.4721394161947636
 
 You can input this code to check the result of PF:
@@ -48,7 +51,9 @@ You can input this code to check the result of PF:
 $ python localization.py pf --seed 0
 ```
 Mean position error: 8.567264372950907
+
 Mean Mahalanobis error: 14.742252771106521
+
 ANEES: 4.914084257035507
 
 ## Visualization
